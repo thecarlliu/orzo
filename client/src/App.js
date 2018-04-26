@@ -14,11 +14,7 @@ const App = () => (
                 <Switch>
                     <Route exact path="/" component={Home}/>
 
-                    <Route exact path="/medium1" component={Gallery}/>
-
-                    <Route exact path="/medium2" component={Gallery}/>
-
-                    <Route exact path="/medium3" component={Gallery}/>
+                    <Route exact path="/:medium" component={Gallery}/>
                 </Switch>
 
             <Footer />

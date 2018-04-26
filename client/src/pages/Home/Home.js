@@ -11,7 +11,6 @@ const Home = () => (
                 <Medium
                     name={medium.name}
                     image={medium.image}
-                    link={medium.link}
                 />
             ))
         }
