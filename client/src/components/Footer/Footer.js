@@ -5,6 +5,9 @@ const artistInfo = require("../../artistInfo.json");
 
 const Footer = () => (
     <footer className="footer grid-x medium-12">
+        <div className="footer-home-link cell medium-12">
+            <a href="#">back to top</a>
+        </div>
         <div className="footer-artist-name cell medium-6">
             <h5>{artistInfo.fullName}</h5>
                 <a href={artistInfo.resume}>resume</a><br/>
