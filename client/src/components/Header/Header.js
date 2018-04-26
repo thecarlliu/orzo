@@ -5,8 +5,8 @@ import "./Header.css";
 const artistInfo = require("../../artistInfo.json");
 
 const Header = () => (
-    <div className="Header grid-x">
-        <div className="artistName cell small-12 medium-12">
+    <div className="header grid-x">
+        <div className="header-artist-name cell small-12 medium-12">
             <h1>{artistInfo.fullName}</h1>
         </div>
         <SubHeader

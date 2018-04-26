@@ -4,21 +4,21 @@ import "./Footer.css"
 const artistInfo = require("../../artistInfo.json");
 
 const Footer = () => (
-    <footer className="grid-x medium-12">
-        <div className="cell medium-6">
+    <footer className="footer grid-x medium-12">
+        <div className="footer-artist-name cell medium-6">
             <h5>{artistInfo.fullName}</h5>
                 <a href={artistInfo.resume}>resume</a><br/>
                 <a href={artistInfo.email}>email</a><br/>
                 <a href={artistInfo.linkedIn}>linkedIn</a>
 
         </div>
-        <div className="cell medium-6">
+        <div className="footer-gallery-links cell medium-6">
             <h5>Galleries</h5>
             <a href={artistInfo.medium1}>{artistInfo.medium1}</a><br/>
             <a href={artistInfo.medium2}>{artistInfo.medium2}</a><br/>
             <a href={artistInfo.medium3}>{artistInfo.medium3}</a>
         </div>
-        <div className="cell medium-2">
+        <div className="footer-copyright cell medium-2">
             <p>Copy right artist2018</p>
         </div>
     </footer>
