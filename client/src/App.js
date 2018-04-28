@@ -9,8 +9,9 @@ import "./App.css";
 const App = () => (
 
     <Router>
-        <div>
-            <Header />
+        <div className="background">
+            <div className="main-content">
+                <Header />
 
                 <Switch>
                     <Route exact path="/" component={Home}/>
@@ -19,6 +20,7 @@ const App = () => (
                 </Switch>
 
             <Footer />
+            </div>            
         </div>
     </Router>
 

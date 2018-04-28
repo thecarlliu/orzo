@@ -25,14 +25,19 @@ class Gallery extends React.Component {
 
     render() {
         return(
-            <div className="gallery">
-                <h3 className="gallery-title">{this.setGallery().name}</h3>
+            <div className="gallery grid-x medium-12">
+                <div className="gallery-title cell medium-12">
+                    <h3 >{this.setGallery().name}</h3>
+                </div>
+                <div className="gallery-images grid-x medium-12">
                 {
                     this.setGallery().images.map((image) => (
-                        <div><img className="gallery-image" src={image} alt=""/></div>
+                        <div className="gallery-image cell medium-4">
+                            <img className="" src={image} alt=""/>
+                        </div>
                     ))
                 }
-
+                </div>
             </div>
         )
     }

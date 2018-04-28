@@ -1,0 +1,41 @@
+$primary: #666666;
+$secondary: #ffab40;
+$generalfont: Roboto;
+$headerfont: Arbutus;
+
+.background {
+	background-image: url("images/background.jpg");
+}
+
+.main-content {
+	background-color: rgba(255,255,255,0.7);	
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+h1,h2,h3,h4,h5,p {
+    color: $secondary;
+    font-family: $generalfont;
+}
+
+.header-artist-name a {
+	font-family: $headerfont;
+	font-size: 60px;
+	color: $primary;
+}
+
+.subheader-links a {
+	color: $secondary;
+    font-family: $generalfont;
+}
+
+.footer-back-to-top {
+	color: $secondary;
+    font-family: $generalfont;
+}
+
+footer-artist-name {
+	color: $secondary;
+    font-family: $generalfont;
+}
+

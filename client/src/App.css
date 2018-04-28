@@ -1,0 +1,35 @@
+.background {
+  background-image: url("images/background.jpg");
+}
+
+.main-content {
+  background-color: rgba(255, 255, 255, 0.7);
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+h1, h2, h3, h4, h5, p {
+  color: #ffab40;
+  font-family: Roboto;
+}
+
+.header-artist-name a {
+  font-family: Arbutus;
+  font-size: 60px;
+  color: #666666;
+}
+
+.subheader-links a {
+  color: #ffab40;
+  font-family: Roboto;
+}
+
+.footer-back-to-top {
+  color: #ffab40;
+  font-family: Roboto;
+}
+
+footer-artist-name {
+  color: #ffab40;
+  font-family: Roboto;
+}

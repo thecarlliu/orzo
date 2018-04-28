@@ -21,8 +21,8 @@ const Footer = () => (
             <a href={artistInfo.medium2}>{artistInfo.medium2}</a><br/>
             <a href={artistInfo.medium3}>{artistInfo.medium3}</a>
         </div>
-        <div className="footer-copyright cell medium-2">
-            <p>Copy right artist2018</p>
+        <div className="footer-copyright cell medium-12">
+         Copyright Artist 2018
         </div>
     </footer>
 );

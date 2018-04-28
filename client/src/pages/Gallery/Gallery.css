@@ -1,0 +1,22 @@
+.gallery {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.gallery .gallery-title h3 {
+  text-align: center;
+}
+
+.gallery .gallery-images {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.gallery .gallery-images .gallery-image {
+  align-content: center;
+  padding: 10px;
+}
+
+.gallery .gallery-images .gallery-image img {
+  border-radius: 10px;
+}

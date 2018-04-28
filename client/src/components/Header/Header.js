@@ -7,7 +7,7 @@ const artistInfo = require("../../artistInfo.json");
 const Header = () => (
     <div className="header grid-x">
         <div className="header-artist-name cell small-12 medium-12">
-            <a href="/"><h1>{artistInfo.fullName}</h1></a>
+            <a href="/">{artistInfo.fullName}</a>
         </div>
         <SubHeader
             resumeLink={artistInfo.resume}
