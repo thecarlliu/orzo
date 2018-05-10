@@ -1,5 +1,6 @@
 $primary: #666666;
-$secondary: #ffab40;
+$secondary: #c25e00;
+$tertiary: #FF950D;
 $generalfont: Roboto;
 $headerfont: Arbutus;
 
@@ -25,7 +26,7 @@ h1,h2,h3,h4,h5,p {
 }
 
 .subheader-links a {
-	color: $secondary;
+	color: $tertiary;
     font-family: $generalfont;
 }
 
